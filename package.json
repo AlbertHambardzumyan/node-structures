@@ -1,0 +1,35 @@
+{
+  "name": "node-structures",
+  "version": "1.0.0",
+  "author": {
+    "name": "Albert Hambardzumyan",
+    "email": "hambardzumyan.albert@gmail.com"
+  },
+  "description": "Simple implementation of data structures in Javascript.",
+  "keywords": [
+    "ADT",
+    "structures",
+    "node-structures",
+    "Data Structures",
+    "Data-Structures",
+    "Stack",
+    "stack"
+  ],
+  "homepage": "https://github.com/AlbertHambardzumyan/node-structures",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlbertHambardzumyan/node-structures"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "mocha": "~3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "index",
+  "licence": "MIT"
+}
