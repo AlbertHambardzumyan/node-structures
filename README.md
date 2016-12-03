@@ -15,11 +15,15 @@ Client-side:
   
 # Usage
   var Stack = require('node-structures').Stack;
+  
   var stack = new Stack();
   
   stack.isEmpty();
+  
   stack.push(3);
+  
   stack.peek();
+  
   stack.pop();
 
 # License
