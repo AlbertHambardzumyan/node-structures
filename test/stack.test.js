@@ -21,7 +21,7 @@ describe('Stack', function () {
     describe('Push', function () {
         it('should add a new element on top of the Stack', function () {
             var add = stack.push(7);
-            expect(add).to.be.equal(1);
+            expect(add).to.be.equal(true);
         });
         it('should have length 2', function () {
             stack.push(8);
@@ -54,6 +54,10 @@ describe('Stack', function () {
         });
         it('should have length 1', function () {
             expect(stack.size()).to.be.equal(1);
+        });
+        it('should throw an exception if the Stack is empty', function () {
+            stack.pop();
+            expect(stack.pop.bind()).to.throw(Error);
         });
     });
 });
