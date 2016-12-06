@@ -8,9 +8,9 @@ const chai = require('chai'),
 const Stack = require('../index.js').Stack;
 
 describe('Stack', function () {
-    var stack = new Stack();
 
     describe('isEmpty', function () {
+        var stack = new Stack();
         it('should be empty', function () {
             expect(stack.isEmpty()).to.be.equal(true);
         });
@@ -19,6 +19,7 @@ describe('Stack', function () {
         });
     });
     describe('Push', function () {
+        var stack = new Stack();
         it('should add a new element on top of the Stack', function () {
             var add = stack.push(7);
             expect(add).to.be.equal(true);

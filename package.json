@@ -1,6 +1,6 @@
 {
   "name": "node-structures",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "author": {
     "name": "Albert Hambardzumyan",
     "email": "hambardzumyan.albert@gmail.com"
@@ -13,7 +13,9 @@
     "Data Structures",
     "Data-Structures",
     "Stack",
-    "stack"
+    "stack",
+    "Queue",
+    "queue"
   ],
   "homepage": "https://github.com/AlbertHambardzumyan/node-structures",
   "repository": {

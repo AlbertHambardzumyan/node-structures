@@ -18,6 +18,7 @@ Client-side:
   bower install node-structures
   
 # Usage
+
 ###Stack
 ```` javascript
   const Stack = require('node-structures').Stack;
@@ -55,6 +56,45 @@ Client-side:
    * @returns {Number} - the size of the stack.
    */
   stack.size();
+````
+
+###Queue
+```` javascript
+  const Queue = require('node-structures').Queue;
+  let queue = new Queue();
+  
+ /**
+  * Tests if this queue is empty.
+  * @returns {boolean} - true if and only if this queue contains no items; false otherwise.
+  */
+  queue.isEmpty();
+  
+/**
+ * Inserts the specified element into this queue.
+ * @param element - the element to add
+ * @return {boolean} Returns true
+ */
+  queue.add(3);
+  
+/**
+ * Retrieves and removes the head of this queue. This method differs from poll only in that it throws an exception
+ *  if this queue is empty.
+ * @throws {Error} when the queue is empty.
+ * @return {*} Returns the head of this queue
+ */
+  queue.remove();
+  
+/**
+ * Retrieves and removes the head of this queue, or returns null if this queue is empty.
+ * @returns {*} Returns the head of this queue, or null if this queue is empty.
+ */
+  queue.poll();
+  
+/**
+ * Retrieves, but does not remove, the head of this queue, or returns null if this queue is empty.
+ * @returns {*} Returns the head of this queue, or null if this queue is empty.
+ */
+  queue.peek();
 ````
 # License
   MIT
