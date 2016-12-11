@@ -107,26 +107,26 @@ Client-side:
 
 ###LikedList
 ```` javascript
-  const LikedList = require('node-structures').LikedList;
-  let likedList = new LikedList();
+  const LinkedList = require('node-structures').LinkedList;
+  let linkedList = new LinkedList();
   
   /**
    * Tests if this LinkedList is empty.
    * @returns {boolean} - true if and only if this LinkedList contains no items; false otherwise.
    */
-  likedList.isEmpty();
+  linkedList.isEmpty();
   
   /**
    * Inserts the specified element at the beginning of this list.
    * @param data - the element to add
    */  
-  likedList.addFirst("A");
+  linkedList.addFirst("A");
   
   /**
    * Appends the specified element to the end of this list.
    * @param data - the element to add
    */
-  likedList.addLast("B");
+  linkedList.addLast("B");
   
   /**
    * Inserts the specified element at the specified position in this list.
@@ -136,7 +136,7 @@ Client-side:
    * @param index - index at which the specified element is to be inserted
    * @param element - element to be inserted
    */
-  likedList.add(1, "C");
+  linkedList.add(1, "C");
   
   /**
    * Removes the element at the specified position in this list. Shifts any subsequent elements to the left
@@ -146,7 +146,7 @@ Client-side:
    * @param index - the index of the element to be removed
    * @returns {*} - the element previously at the specified position
    */
-  likedList.remove(2);
+  linkedList.remove(2);
   
   /**
    * Returns the element at the specified position in this list.
@@ -154,18 +154,18 @@ Client-side:
    * @param index - index of the element to return
    * @returns {*} - the element at the specified position in this list
    */
-  likedList.get(1);
+  linkedList.get(1);
   
   /**
    * Returns the number of elements in this list.
    * @returns {Number} - the number of elements in this list.
    */
-  likedList.size();
+  linkedList.size();
    
   /**
    * Removes all of the elements from this list. The list will be empty after this call returns.
    */
-  likedList.clear();
+  linkedList.clear();
 ````
 
 # License
