@@ -10,9 +10,9 @@
 # Description
   The Library provides the following Data Structure Implementations
 
-  * [Stack](###Stack)
-  * [Queue](###Queue)
-  * [Linked List](###LinkedList)
+  * [Stack](#stack)
+  * [Queue](#queue)
+  * [Linked List](#linkedList)
     
 # Installation 
 Server-side:
