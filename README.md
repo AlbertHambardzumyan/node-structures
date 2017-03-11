@@ -2,15 +2,17 @@
 [![Build Status](https://travis-ci.org/AlbertHambardzumyan/node-structures.svg?branch=master)](https://travis-ci.org/AlbertHambardzumyan/node-structures)
 [![npm](https://img.shields.io/npm/v/node-structures.svg)](https://www.npmjs.com/package/node-structures) 
 [![Code Climate](https://codeclimate.com/github/AlbertHambardzumyan/node-structures/badges/gpa.svg)](https://codeclimate.com/github/AlbertHambardzumyan/node-structures)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/AlbertHambardzumyan/node-structures/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/AlbertHambardzumyan/node-structures.svg)](https://github.com/AlbertHambardzumyan/node-structures/issues)
 
   Basic Data Structures for use in JavaScript (server-side, client side)
     
 # Description
   The Library provides the following Data Structure Implementations
 
-  1. Stack
-  2. Queue
-  3. Linked List
+  * [Stack](###Stack)
+  * [Queue](###Queue)
+  * [Linked List](###LinkedList)
     
 # Installation 
 Server-side:
@@ -105,7 +107,7 @@ Client-side:
   queue.peek();
 ````
 
-###LikedList
+###LinkedList
 ```` javascript
   const LinkedList = require('node-structures').LinkedList;
   let linkedList = new LinkedList();
