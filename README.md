@@ -12,7 +12,7 @@
 
   * [Stack](#stack)
   * [Queue](#queue)
-  * [Linked List](#linkedList)
+  * [Linked List](#linkedlist)
     
 # Installation 
 Server-side:
