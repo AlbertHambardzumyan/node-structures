@@ -12,8 +12,8 @@
 
   * [Stack](#stack)
   * [Queue](#queue)
-  * [Priority Queue](#linkedlist)
-  * [Linked List](#linkedlist)
+  * [Priority Queue](#priority-queue)
+  * [Linked List](#linked-list)
     
 # Installation 
 Server-side:
@@ -166,7 +166,7 @@ Client-side:
       priorityQueue.peek();
 ````
 
-###LinkedList
+###Linked List
 ```` javascript
   const LinkedList = require('node-structures').LinkedList;
   let linkedList = new LinkedList();
