@@ -111,7 +111,23 @@ Client-side:
 ###Priority Queue
 ```` javascript
   const PriorityQueue = require('node-structures').PriorityQueue;
+  /**
+   * Creates an empty PriorityQueue with default comparator.
+   * 
+   * Default Comparator: Compares `a` and `b`, when `a > b` it returns a positive number, when `a` = `b` it returns 0,
+   *  and when `a < b` it returns a negative number.
+   */
   let priorityQueue = new PriorityQueue();
+  
+  /**
+   * Creates an empty PriorityQueue with custom comparator.
+   *
+   * (`a > b` - return a positive number, when `a` = `b` return 0, and when `a < b`) return a negative number.
+   */
+  const comparator = function(a, b){
+     return a - b; // define your own one.
+  };
+  let priorityQueue = new PriorityQueue(comparator);
   
   /**
    * Returns the number of elements in this collection
