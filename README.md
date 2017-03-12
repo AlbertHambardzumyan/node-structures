@@ -170,6 +170,5 @@ Client-side:
   linkedList.clear();
 ````
 
-
 # License
   MIT

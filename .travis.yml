@@ -7,5 +7,4 @@ node_js:
     - "5"
     - "6"
 env: BABEL=true
-script:
-    - mocha
+script: "[[ $BABEL == true ]] && npm run test:babel || npm test"
