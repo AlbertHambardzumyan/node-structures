@@ -12,6 +12,7 @@
 
   * [Stack](#stack)
   * [Queue](#queue)
+  * [Priority Queue](#linkedlist)
   * [Linked List](#linkedlist)
     
 # Installation 
@@ -105,6 +106,48 @@ Client-side:
    * @returns {*} Returns the head of this queue, or null if this queue is empty.
    */
   queue.peek();
+````
+
+###Priority Queue
+```` javascript
+  const PriorityQueue = require('node-structures').PriorityQueue;
+  let priorityQueue = new PriorityQueue();
+  
+  /**
+   * Returns the number of elements in this collection
+   *
+   * @returns {Number} - the number of elements in this collection
+   */
+   priorityQueue.size();
+   
+  /**
+   * Tests if this priority queue is empty.
+   *
+   * @returns {boolean} - true if and only if this priority queue contains no items; false otherwise.
+   */
+   priorityQueue.isEmpty();
+   
+   /**
+    * Inserts the specified element into this priority queue.
+    *
+    * @param element - the element to add
+    * @returns {boolean} Returns true
+    */
+    priorityQueue.add(40);
+    
+    /**
+     * Retrieves and removes the head of this priority queue, or returns null if this priority queue is empty.
+     *
+     * @returns {*} Returns the head of this priority queue, or null if this priority queue is empty.
+     */
+     priorityQueue.poll();
+     
+     /**
+      * Retrieves, but does not remove, the head of this priority queue, or returns null if this priority queue is empty.
+      *
+      * @returns {*} Returns the head of this priority queue, or null if this priority queue is empty.
+      */
+      priorityQueue.peek();
 ````
 
 ###LinkedList
