@@ -1,10 +1,7 @@
 {
   "name": "node-structures",
   "version": "4.0.2",
-  "author": {
-    "name": "Albert Hambardzumyan",
-    "email": "hambardzumyan.albert@gmail.com"
-  },
+  "author": "Albert Hambardzumyan <hambardzumyan.albert@gmail.com>",
   "description": "Simple implementation of data structures in Javascript.",
   "keywords": [
     "ADT",
@@ -16,14 +13,8 @@
     "Priority Queue",
     "Linked List"
   ],
-  "homepage": "https://github.com/AlbertHambardzumyan/node-structures",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/AlbertHambardzumyan/node-structures"
-  },
-  "dependencies": {
-
-  },
+  "licence": "MIT",
+  "dependencies": {},
   "devDependencies": {
     "chai": "~3.5.0",
     "mocha": "~3.2.0"
@@ -31,6 +22,14 @@
   "scripts": {
     "test": "mocha"
   },
-  "main": "index",
-  "licence": "MIT"
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlbertHambardzumyan/node-structures"
+  },
+  "bugs": {
+    "url": "https://github.com/AlbertHambardzumyan/node-structures/issues",
+    "email": "hambardzumyan.albert@gmail.com"
+  },
+  "homepage": "https://github.com/AlbertHambardzumyan/node-structures.git"
 }
